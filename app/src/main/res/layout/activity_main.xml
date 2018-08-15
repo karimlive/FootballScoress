@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:padding="10dp">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:ignore="ExtraText">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Team A"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/team_A_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:onClick="displayForTeamA"
+                    android:padding="8dp"
+                    android:text="0"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/designbutton"
+                    android:gravity="center"
+                    android:onClick="SubmitOrder1"
+                    android:text="+6 POINTS"
+                    android:textAllCaps="true"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/designbutton"
+                    android:gravity="center"
+                    android:onClick="SubmitOrder2"
+                    android:text=" +3 POINTS"
+                    android:textAllCaps="true"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/designbutton"
+                    android:gravity="center"
+                    android:onClick="SubmitOrder3"
+                    android:text="+2 points"
+                    android:textAllCaps="true"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/designbutton"
+                    android:gravity="center"
+                    android:onClick="SubmitOrder4"
+                    android:text="safty +2 points"
+                    android:textAllCaps="true"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/designbutton"
+                    android:gravity="center"
+                    android:onClick="SubmitOrder5"
+                    android:text="extra +1 points"
+                    android:textAllCaps="true"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#C0C0C0" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="Team B"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/team_b_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:onClick="displayForTeamB"
+                    android:padding="8dp"
+                    android:text="0"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/designbutton"
+                    android:gravity="center"
+                    android:onClick="SubmitOrder6"
+                    android:text="+6 POINTS"
+                    android:textAllCaps="true"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/designbutton"
+                    android:gravity="center"
+                    android:onClick="SubmitOrder7"
+                    android:text=" +3 POINTS"
+                    android:textAllCaps="true"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/designbutton"
+                    android:gravity="center"
+                    android:onClick="SubmitOrder8"
+                    android:text="+2 points"
+                    android:textAllCaps="true"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/designbutton"
+                    android:gravity="center"
+                    android:onClick="SubmitOrder9"
+                    android:text="safty +2 points"
+                    android:textAllCaps="true"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/designbutton"
+                    android:gravity="center"
+                    android:onClick="SubmitOrder10"
+                    android:text="extra +1 points"
+                    android:textAllCaps="true"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/burest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/burestarte"
+            android:onClick="SubmitOrderRest"
+            android:text="Rest"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+</ScrollView>
